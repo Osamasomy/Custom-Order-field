@@ -1,7 +1,4 @@
 <?php 
-	wp_enqueue_style('custom_plugin_css',plugins_url('/assets/style.css', __FILE__ ));
-	wp_enqueue_script("jquery");
-	wp_register_script('custom_plugin_js',plugins_url('/assets/script.js', __FILE__ ));
-	wp_enqueue_script('custom_plugin_js',plugins_url('/assets/script.js', __FILE__ ));
+	add_submenu_page( string $parent_slug, string $page_title, string $menu_title, string $capability, string $menu_slug, callable $function = '' )
 
 ?>
